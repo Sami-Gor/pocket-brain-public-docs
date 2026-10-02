@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — engineering status"
+permalink: /ring/engineering-status/
+ring: true
+---
+
 # Ring — engineering status
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 
@@ -39,7 +46,7 @@ The web model has 42 semantic meshes, 50 nodes including 8 ownership groups, 92,
 
 Historical presentation findings RING-EV1/EV2 and copy finding RING-RF2 remain OPEN in the private audit register. Website changes do not formally close those engineering records or establish detailed electronics placement.
 
-See [open issues](open-issues-validation.md) and [evidence boundaries](sources-evidence.md).
+See [open issues]({{ '/ring/open-issues-validation/' | relative_url }}) and [evidence boundaries]({{ '/ring/sources-evidence/' | relative_url }}).
 
 ## Fabrication gate
 

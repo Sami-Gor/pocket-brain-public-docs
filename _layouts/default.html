@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} — {{ site.title | escape }}</title>
+  <meta name="description" content="Curated public Pocket Brain documentation. Private engineering sources remain authoritative.">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/docs.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to documentation</a>
+  <header class="site-header"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a><span>Public snapshot · 2026-10-02</span></header>
+  <div class="shell">
+    <aside><nav aria-label="Ring documentation"><h2><a href="{{ '/ring/' | relative_url }}">Ring</a></h2><ul>{% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a></li>{% endfor %}</ul></nav></aside>
+    <main id="content" tabindex="-1">
+      {% unless page.ring %}<div class="authority"><strong>Public documentation snapshot</strong><p>Source authority: private Pocket Brain engineering repository. This publication is a curated public snapshot and is not the fabrication or engineering authority.</p></div>{% endunless %}
+      <article>{{ content }}</article>
+    </main>
+  </div>
+  <footer>Private engineering repository → canonical source · Public docs → curated snapshot · PB Notes → presentation layer</footer>
+</body>
+</html>

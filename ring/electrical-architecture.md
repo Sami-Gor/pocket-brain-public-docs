@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — electrical architecture"
+permalink: /ring/electrical-architecture/
+ring: true
+---
+
 # Ring — electrical architecture
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 
@@ -35,4 +42,4 @@ Placement exists; connectivity closure does not. Reported PCB counts: 32 footpri
 
 BLE is intended but unvalidated. Matching implementation, antenna tuning, reference clock, impedance, VNA measurements, body detuning and metal-shell effects remain open. NFC is SPECULATIVE and excluded from frozen functions.
 
-See [current state](current-state.md) and [open issues](open-issues-validation.md).
+See [current state]({{ '/ring/current-state/' | relative_url }}) and [open issues]({{ '/ring/open-issues-validation/' | relative_url }}).

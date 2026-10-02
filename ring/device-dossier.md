@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — curated device dossier"
+permalink: /ring/device-dossier/
+ring: true
+---
+
 # Ring — curated device dossier
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 
@@ -28,11 +35,11 @@ Fusion v0.4 is the frozen mechanical authority. M3 remains an alternate working 
 
 **Fabrication NOT READY; physical validation NOT PERFORMED.**
 
-- [Current state](current-state.md)
-- [Device dossier](device-dossier.md)
-- [Mechanical architecture](mechanical-architecture.md)
-- [Electrical architecture](electrical-architecture.md)
-- [Dimensions and tolerances](dimensions-tolerances.md)
-- [Engineering status](engineering-status.md)
-- [Open issues and validation](open-issues-validation.md)
-- [Sources and evidence](sources-evidence.md)
+- [Current state]({{ '/ring/current-state/' | relative_url }})
+- [Device dossier]({{ '/ring/device-dossier/' | relative_url }})
+- [Mechanical architecture]({{ '/ring/mechanical-architecture/' | relative_url }})
+- [Electrical architecture]({{ '/ring/electrical-architecture/' | relative_url }})
+- [Dimensions and tolerances]({{ '/ring/dimensions-tolerances/' | relative_url }})
+- [Engineering status]({{ '/ring/engineering-status/' | relative_url }})
+- [Open issues and validation]({{ '/ring/open-issues-validation/' | relative_url }})
+- [Sources and evidence]({{ '/ring/sources-evidence/' | relative_url }})

@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — dimensions and tolerances"
+permalink: /ring/dimensions-tolerances/
+ring: true
+---
+
 # Ring — dimensions and tolerances
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 
@@ -29,4 +36,4 @@ Numbers are reported geometry or explicitly labelled targets. They are not relea
 
 Mass, battery capacity/runtime, RF impedance, physical thermal limits, supplier capability, IP rating and ring size range are not established. Geometric clearance results do not close electrical, RF or manufacturing issues.
 
-See [mechanical architecture](mechanical-architecture.md) for authority separation.
+See [mechanical architecture]({{ '/ring/mechanical-architecture/' | relative_url }}) for authority separation.

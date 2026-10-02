@@ -1,0 +1,18 @@
+- title: "Overview"
+  url: /ring/
+- title: "Current state"
+  url: /ring/current-state/
+- title: "Device dossier"
+  url: /ring/device-dossier/
+- title: "Mechanical architecture"
+  url: /ring/mechanical-architecture/
+- title: "Electrical architecture"
+  url: /ring/electrical-architecture/
+- title: "Dimensions & tolerances"
+  url: /ring/dimensions-tolerances/
+- title: "Engineering status"
+  url: /ring/engineering-status/
+- title: "Open issues & validation"
+  url: /ring/open-issues-validation/
+- title: "Sources & evidence"
+  url: /ring/sources-evidence/

@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — open issues and validation"
+permalink: /ring/open-issues-validation/
+ring: true
+---
+
 # Ring — open issues and validation
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 

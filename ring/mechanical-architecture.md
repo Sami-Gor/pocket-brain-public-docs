@@ -1,10 +1,17 @@
+---
+layout: default
+title: "Ring — mechanical architecture"
+permalink: /ring/mechanical-architecture/
+ring: true
+---
+
 # Ring — mechanical architecture
 
 > **Public documentation snapshot**  
 > Device: Pocket Brain Ring  
 > Source authority: private Pocket Brain engineering repository  
 > Public snapshot date: 2026-10-02  
-> Engineering state: [current-state.md](current-state.md)
+> Engineering state: [current-state.md]({{ '/ring/current-state/' | relative_url }})
 
 This is a curated public summary, not the engineering authority or a fabrication release. Evidence statements below are reported from the private engineering record checked on 2026-10-02; this publication does not independently revalidate hardware. Underlying engineering source retained in private source repository.
 
@@ -34,4 +41,4 @@ M3 adds capture ledges, carrier notches, re-formed straps and a translated ribbo
 
 Battery supplier and swelling behaviour; terminal conductor/insulation and 0.04 mm insulated separation; tight carrier clearances; tolerance capability; weld distortion; adhesive/retention life; seal performance; skin-contact/thermal limits and ring size range remain unresolved. No IP rating or physical process validation is claimed.
 
-See [dimensions](dimensions-tolerances.md) and [open validation](open-issues-validation.md).
+See [dimensions]({{ '/ring/dimensions-tolerances/' | relative_url }}) and [open validation]({{ '/ring/open-issues-validation/' | relative_url }}).

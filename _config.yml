@@ -1,0 +1,9 @@
+title: Pocket Brain Public Documentation
+url: https://sami-gor.github.io
+baseurl: /pocket-brain-public-docs
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+exclude:
+  - README-PAGES.md
