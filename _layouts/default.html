@@ -10,9 +10,13 @@
 </head>
 <body>
   <a class="skip" href="#content">Skip to documentation</a>
-  <header class="site-header"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a><span>Public snapshot · 2026-10-02</span></header>
+  <header class="site-header"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a><span>Public snapshot · {{ page.snapshot_date | default: '2026-10-02' }}</span></header>
   <div class="shell">
-    <aside><nav aria-label="Ring documentation"><h2><a href="{{ '/ring/' | relative_url }}">Ring</a></h2><ul>{% for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a></li>{% endfor %}</ul></nav></aside>
+    <aside>
+      <nav aria-label="Device documentation"><p><a href="{{ '/ring/' | relative_url }}">Ring</a> · <a href="{{ '/eyewear/' | relative_url }}">Eyewear</a></p></nav>
+      {% if page.device == 'eyewear' %}{% assign device_navigation = site.data.eyewear_navigation %}{% assign device_title = 'Eyewear' %}{% assign device_root = '/eyewear/' %}{% else %}{% assign device_navigation = site.data.navigation %}{% assign device_title = 'Ring' %}{% assign device_root = '/ring/' %}{% endif %}
+      <nav aria-label="{{ device_title }} documentation"><h2><a href="{{ device_root | relative_url }}">{{ device_title }}</a></h2><ul>{% for item in device_navigation %}<li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a></li>{% endfor %}</ul></nav>
+    </aside>
     <main id="content" tabindex="-1">
       {% unless page.ring %}<div class="authority"><strong>Public documentation snapshot</strong><p>Source authority: private Pocket Brain engineering repository. This publication is a curated public snapshot and is not the fabrication or engineering authority.</p></div>{% endunless %}
       <article>{{ content }}</article>
