@@ -14,8 +14,9 @@ Index updated: **2026-10-04**. This repository is not a fabrication release, val
 
 - [Pocket Brain documentation]({{ '/pocket-brain/' | relative_url }})
 - [Pocket Brain Ring documentation]({{ '/ring/' | relative_url }})
+- [Pocket Brain Earpiece documentation]({{ '/earpiece/' | relative_url }})
 - [Pocket Brain Eyewear documentation]({{ '/eyewear/' | relative_url }})
 - [PB Notes Ring presentation](https://www.pbnotes.my/devices/?device=ring)
 - [PB Notes Eyewear presentation](https://www.pbnotes.my/devices/?device=eyewear)
 
-Pocket Brain, Ring and Eyewear have separate curated snapshots. Their page notices record their respective publication and evidence dates. No documentation is invented for other devices.
+Pocket Brain, Ring, Eyewear and Earpiece have separate curated snapshots. Earpiece distinguishes historical V2.2 presentation from current v3 engineering reconciliation. Their page notices record their respective publication and evidence dates. No documentation is invented for other devices.
